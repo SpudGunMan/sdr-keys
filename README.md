@@ -3,7 +3,7 @@
 
  ![img](/img/adakbd.jpeg)
  
- built on RP2040 using Adafruit MacroPad running [CircutPython](https://learn.adafruit.com/adafruit-macropad-rp2040) with offical [Library-Pack](https://learn.adafruit.com/adafruit-macropad-rp2040/macropad-circuitpython-library)
+ Built on RP2040 using Adafruit MacroPad running [CircutPython](https://learn.adafruit.com/adafruit-macropad-rp2040) with offical [Library-Pack](https://learn.adafruit.com/adafruit-macropad-rp2040/macropad-circuitpython-library)
 
  # use / install
 The code is very early alpha nothing fancy
