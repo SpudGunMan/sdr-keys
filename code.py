@@ -2,12 +2,10 @@
 # sdr-keys: 2023 K7MHI
 """
 MacroPad HID KBD&Mouse wheel left and right when the rotary encoder is rotated
-note macropad.keyboard.release_all()
 """
 from adafruit_macropad import MacroPad
 import time
 
-# Rotary Encoder
 macropad = MacroPad()
 last_position = 0
 
@@ -21,18 +19,25 @@ while True:
             # Frequency Step
             if key_event.key_number == 0:
                 macropad.keyboard.send(macropad.Keycode.T)
+                macropad.keyboard.release_all()
             if key_event.key_number == 2:
                 macropad.keyboard.press(macropad.Keycode.G)
+                macropad.keyboard.release_all()
             # Band Step
             if key_event.key_number == 3:
                 macropad.keyboard.send(macropad.Keycode.M)
+                macropad.keyboard.release_all()
             if key_event.key_number == 5:
                 macropad.keyboard.press(macropad.Keycode.N)
+                macropad.keyboard.release_all()
             # Filter Step
             if key_event.key_number == 6:
                 macropad.keyboard.send(macropad.Keycode.B)
+                macropad.keyboard.release_all()
             if key_event.key_number == 8:
-                macropad.keyboard.press(macropad.Keycode.V)            
+                macropad.keyboard.press(macropad.Keycode.V)
+                macropad.keyboard.release_all()
+                
             # Three Bottom Keys Volume Functions
             if key_event.key_number == 9:
                 macropad.consumer_control.send(
@@ -46,6 +51,7 @@ while True:
                 macropad.consumer_control.send(
                     macropad.ConsumerControlCode.MUTE
                 )
+            
             # MIDI Keys
             if key_event.key_number == 1:
                 macropad.midi.send(macropad.NoteOn(33, 127))
