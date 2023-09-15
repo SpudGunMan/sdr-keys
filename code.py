@@ -53,17 +53,17 @@ while True:
             # MIDI Keys
             if key_event.key_number == 1:
                 macropad.midi.send(macropad.NoteOn(33, 127))
-                time.sleep(0.5)
+                time.sleep(1.0)
                 macropad.midi.send(macropad.NoteOff(33, 0))
                 time.sleep(0.5)
             if key_event.key_number == 4:
                 macropad.midi.send(macropad.NoteOn(77, 127))
-                time.sleep(0.5)
+                time.sleep(1.0)
                 macropad.midi.send(macropad.NoteOff(77, 0))
                 time.sleep(0.5)
             if key_event.key_number == 7:
                 macropad.midi.send(macropad.NoteOn(69, 127))
-                time.sleep(0.5)
+                time.sleep(1.0)
                 macropad.midi.send(macropad.NoteOff(69, 0))
                 time.sleep(0.5)
             
