@@ -1,15 +1,13 @@
 # SPDX-FileCopyrightText: 2021 ladyada & Kattni Rembor for Adafruit Industries
 # sdr-keys: 2023 K7MHI
-"""
-MacroPad HID KBD&Mouse wheel left and right when the rotary encoder is rotated
-"""
+
 from adafruit_macropad import MacroPad
 import time
 
 macropad = MacroPad()
 last_position = 0
 
-print("K7MHI SDR Controller")
+print("Thetis SDR Controller")
 
 while True:
     key_event = macropad.keys.events.get()
@@ -25,10 +23,10 @@ while True:
                 macropad.keyboard.release_all()
             # Band Step
             if key_event.key_number == 3:
-                macropad.keyboard.send(macropad.Keycode.M)
+                macropad.keyboard.send(macropad.Keycode.R)
                 macropad.keyboard.release_all()
             if key_event.key_number == 5:
-                macropad.keyboard.press(macropad.Keycode.N)
+                macropad.keyboard.press(macropad.Keycode.F)
                 macropad.keyboard.release_all()
             # Filter Step
             if key_event.key_number == 6:
@@ -41,15 +39,15 @@ while True:
             # Three Bottom Keys Volume Functions
             if key_event.key_number == 9:
                 macropad.consumer_control.send(
-                    macropad.ConsumerControlCode.VOLUME_DECREMENT
+                    macropad.ConsumerControlCode.VOLUME_INCREMENT
                 )
             if key_event.key_number == 10:
                 macropad.consumer_control.send(
-                    macropad.ConsumerControlCode.VOLUME_INCREMENT
+                    macropad.ConsumerControlCode.MUTE
                 )
             if key_event.key_number == 11:
                 macropad.consumer_control.send(
-                    macropad.ConsumerControlCode.MUTE
+                    macropad.ConsumerControlCode.VOLUME_DECREMENT
                 )
             
             # MIDI Keys
