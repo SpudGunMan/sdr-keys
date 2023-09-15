@@ -8,7 +8,7 @@
 # adding more keys,pots or whatever..
 - [breakout](https://learn.adafruit.com/adafruit-macropad-rp2040/attaching-external-hardware) devices details
 
-you can easily add an additional higher resolution or weighty VFO knob! TO-DO
+you can easily add an additional higher resolution or weighty VFO knob! or a foot switch TO-DO
 
 # Errata
  - [Adafruit Downloads](https://learn.adafruit.com/adafruit-macropad-rp2040/downloads) for Scats etc.
