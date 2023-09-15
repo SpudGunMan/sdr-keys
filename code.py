@@ -16,24 +16,24 @@ while True:
         if key_event.pressed:
             # Frequency Step
             if key_event.key_number == 0:
-                macropad.keyboard.send(macropad.Keycode.T)
+                macropad.keyboard.send(macropad.Keycode.G)
                 macropad.keyboard.release_all()
             if key_event.key_number == 2:
-                macropad.keyboard.press(macropad.Keycode.G)
+                macropad.keyboard.press(macropad.Keycode.T)
                 macropad.keyboard.release_all()
             # Band Step
             if key_event.key_number == 3:
-                macropad.keyboard.send(macropad.Keycode.R)
+                macropad.keyboard.send(macropad.Keycode.F)
                 macropad.keyboard.release_all()
             if key_event.key_number == 5:
-                macropad.keyboard.press(macropad.Keycode.F)
+                macropad.keyboard.press(macropad.Keycode.R)
                 macropad.keyboard.release_all()
             # Filter Step
             if key_event.key_number == 6:
-                macropad.keyboard.send(macropad.Keycode.B)
+                macropad.keyboard.send(macropad.Keycode.V)
                 macropad.keyboard.release_all()
             if key_event.key_number == 8:
-                macropad.keyboard.press(macropad.Keycode.V)
+                macropad.keyboard.press(macropad.Keycode.B)
                 macropad.keyboard.release_all()
                 
             # Three Bottom Keys Volume Functions
