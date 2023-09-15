@@ -3,16 +3,16 @@
 
  ![img](/img/adakbd.jpeg)
  
- built on RP2040 using [CircutPython](https://learn.adafruit.com/adafruit-macropad-rp2040) and [Library-Pack](https://learn.adafruit.com/adafruit-macropad-rp2040/macropad-circuitpython-library)
+ built on RP2040 using Adafruit MacroPad running [CircutPython](https://learn.adafruit.com/adafruit-macropad-rp2040) with offical [Library-Pack](https://learn.adafruit.com/adafruit-macropad-rp2040/macropad-circuitpython-library)
 
  # use / install
 The code is very early alpha nothing fancy
 
- 1) once device is built and running curcut python (See errata)
- 2) download and copy the lib pack below in errata or adafruit gettin-started with Macropad
- 3) copy code.py to CIRCUTPY disk with step 2 lib directory
+ 1) once device is built and running circuit python (See errata)
+ 2) download and copy the lib pack above
+ 3) copy code.py to CIRCUITPY disk with step 2 lib directory
 
-# adding more keys,pots or whatever..
+# adding more whatever..
 - [breakout](https://learn.adafruit.com/adafruit-macropad-rp2040/attaching-external-hardware) devices details
   - add an additional higher resolution or weighty VFO knob! 
   - foot switch for PTT
