@@ -1,11 +1,7 @@
-# SPDX-FileCopyrightText: 2021 ladyada Kattni Rembor for Adafruit Industries
-# SPDX-License-Identifier: MIT
-# MacroPad-HAM: 2023 K7MHI
+# SPDX-FileCopyrightText: 2021 ladyada & Kattni Rembor for Adafruit Industries
+# sdr-keys: 2023 K7MHI
 """
 MacroPad HID KBD&Mouse wheel left and right when the rotary encoder is rotated
-Keyboard DOC https://docs.circuitpython.org/projects/macropad/en/latest/api.html
-MIDI or UART-MIDI https://projectgus.github.io/hairless-midiserial/
-MIDI DOC https://docs.circuitpython.org/projects/midi/en/latest/
 note macropad.keyboard.release_all()
 """
 from adafruit_macropad import MacroPad
