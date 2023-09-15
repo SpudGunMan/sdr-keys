@@ -24,3 +24,6 @@ The code is very early alpha nothing fancy
     - [UART-MIDI](https://projectgus.github.io/hairless-midiserial/)
  - [HID-API](https://docs.circuitpython.org/projects/macropad/en/latest/api.html)
  - [IR-API](https://learn.adafruit.com/ir-sensor/circuitpython)
+
+Alt-Idea:
+ - [ch57](https://github.com/kriomant/ch57x-keyboard-tool) Keyboard Editor
