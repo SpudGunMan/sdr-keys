@@ -21,7 +21,7 @@ while True:
             if key_event.key_number == 2:
                 macropad.keyboard.press(macropad.Keycode.T)
                 macropad.keyboard.release_all()
-            # Band Step
+
             if key_event.key_number == 3:
                 macropad.keyboard.send(macropad.Keycode.F)
                 macropad.keyboard.release_all()
