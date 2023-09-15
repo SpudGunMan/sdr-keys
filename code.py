@@ -39,7 +39,7 @@ while True:
             # Three Bottom Keys Volume Functions
             if key_event.key_number == 9:
                 macropad.consumer_control.send(
-                    macropad.ConsumerControlCode.VOLUME_INCREMENT
+                    macropad.ConsumerControlCode.VOLUME_DECREMENT
                 )
             if key_event.key_number == 10:
                 macropad.consumer_control.send(
@@ -47,7 +47,7 @@ while True:
                 )
             if key_event.key_number == 11:
                 macropad.consumer_control.send(
-                    macropad.ConsumerControlCode.VOLUME_DECREMENT
+                    macropad.ConsumerControlCode.VOLUME_INCREMENT
                 )
             
             # MIDI Keys
