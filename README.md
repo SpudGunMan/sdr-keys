@@ -16,9 +16,11 @@ The code is very early alpha nothing fancy
 - [breakout](https://learn.adafruit.com/adafruit-macropad-rp2040/attaching-external-hardware) devices details
   - add an additional higher resolution or weighty VFO knob! 
   - foot switch for PTT
+  - IR Control
 
 # Errata
  - [Adafruit Downloads](https://learn.adafruit.com/adafruit-macropad-rp2040/downloads) for Scats etc.
  - [MIDI-API](https://docs.circuitpython.org/projects/midi/en/latest/)
+    - [UART-MIDI](https://projectgus.github.io/hairless-midiserial/)
  - [HID-API](https://docs.circuitpython.org/projects/macropad/en/latest/api.html)
- - [UART-MIDI](https://projectgus.github.io/hairless-midiserial/)
+ - [IR-API](https://learn.adafruit.com/ir-sensor/circuitpython)
