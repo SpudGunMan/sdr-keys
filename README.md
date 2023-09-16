@@ -23,6 +23,7 @@ The code is very early alpha nothing fancy
  - [MIDI-API](https://docs.circuitpython.org/projects/midi/en/latest/)
     - [UART-MIDI](https://projectgus.github.io/hairless-midiserial/)
  - [HID-API](https://docs.circuitpython.org/projects/macropad/en/latest/api.html)
+   - [HID](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices) devices
  - [IR-API](https://learn.adafruit.com/ir-sensor/circuitpython)
 
 Alt-Idea:
