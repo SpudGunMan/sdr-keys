@@ -5,6 +5,11 @@
  
  Built on RP2040 using Adafruit MacroPad running [CircutPython](https://learn.adafruit.com/adafruit-macropad-rp2040) with offical [Library-Pack](https://learn.adafruit.com/adafruit-macropad-rp2040/macropad-circuitpython-library)
 
+ # BOM
+ The MacroPad (digikey 5128) is a proto board using the RP2040 chip in a custom PCB with keyboard keys OLED and a pot. This could be built using a RP2040 and copying the keyboard pins on the errata downloads for scats. 
+
+ You could also just re-mix all this hardware down to a few buttons with only a RP2040
+
  # use / install
 The code is very early alpha nothing fancy
 
