@@ -28,19 +28,19 @@ while True:
 
             # Top Row Keyboard Event Keys
             if key_event.key_number == 0:
-                macropad.keyboard.send(macropad.Keycode.G)
+                macropad.keyboard.press(macropad.Keycode.G)
 
             if key_event.key_number == 2:
                 macropad.keyboard.press(macropad.Keycode.T)
                 
             if key_event.key_number == 3:
-                macropad.keyboard.send(macropad.Keycode.F)
+                macropad.keyboard.press(macropad.Keycode.F)
 
             if key_event.key_number == 5:
                 macropad.keyboard.press(macropad.Keycode.R)
 
             if key_event.key_number == 6:
-                macropad.keyboard.send(macropad.Keycode.D)
+                macropad.keyboard.press(macropad.Keycode.D)
 
             if key_event.key_number == 8:
                 macropad.keyboard.press(macropad.Keycode.E)
