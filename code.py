@@ -12,7 +12,7 @@ import time
 macropad = MacroPad() # Create the macropad object
 last_position = 0 # Rotary Encoder Position
 
-print("SDR Keys v0.1")
+print("SDR Keys v0.2")
 
 while True:
     key_event = macropad.keys.events.get() # Get the key event
