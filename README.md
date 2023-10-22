@@ -18,6 +18,9 @@ The code is very early alpha nothing fancy
  3) copy code.py to CIRCUITPY disk with step 2 lib directory
 
 # adding more whatever..
+
+[code2.py](code2.py) has expanded examples
+
 - [breakout](https://learn.adafruit.com/adafruit-macropad-rp2040/attaching-external-hardware) devices details
   - add an additional higher resolution or weighty VFO knob! 
   - foot switch for PTT
